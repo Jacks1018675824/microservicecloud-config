@@ -1,0 +1,12 @@
+server:
+  profules:
+    active:
+      - dev
+---      
+spring:
+   profiles:dev #开发环境
+    name: microservicecloud-config-alienk-dev    
+---   
+spring:
+   profiles:dev #测试环境
+    name: microservicecloud-config-alienk-test    
